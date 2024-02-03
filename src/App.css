@@ -1,38 +1,180 @@
-.App {
-  text-align: center;
+ .App {
+  
+  font-family: "Roboto Slab", serif;
 }
-
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.jumbotron{
+  background-color: #fcba03;
+  height: 500px;
+}
+.btn-warning{
+  background-color: #ff9900;
+  border-radius: 50px;
+  box-shadow: 0px 2px 2px black !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.contact-card{
+  width: 500px;
+  /* display: flex;
+  justify-content:center ;
+  align-items:center; */
+
+/* }
+.footer{
+  line-height: 50px;
+  margin-bottom: 0;
+} */ */
+
+
+body {
+  margin: 0px;
+  font-family: "Crimson Pro", serif;
+  font-family: "Roboto Slab", serif;
+}
+#img {
+  height: 500px;
+  width: 100%;
+}
+.hero {
+  position: relative;
+  text-align: center;
+}
+#heading {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-size: 40px;
+}
+#heading3 {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+}
+#button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: white;
+  background-color: #ff9900;
+  outline: none;
+  box-shadow: 0px 2px 2px black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+section {
+  background-color: white;
+  width: 100%;
+  height: 50%;
+}
+header {
+  text-align: center;
+}
+#bio {
+  padding: 20px;
+  font-size: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+#paragraf {
+  font-style: italic;
+  width: 1000px;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.friend h1 {
+  text-align: center;
+}
+  .friend table,th,tr,td {
+      text-align: center;
+      border-collapse: collapse;
+      width: 500px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+tr {
+  border-bottom: 1px solid #ddd;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  /* background-color: #ff9900;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer; */
+  width: 100%;
+  /* transform: translateX(-50%); */
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  background-color: #ff9900;
+  outline: none;
+  box-shadow: 0px 2px 2px black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffc164;
+}
+
+.contact {
+  width: 500px;
+  margin: 60px auto;
+  margin-bottom: 100px;
+}
+.friend {
+  width: 500px;
+  margin: 60px auto;
+  margin-bottom: 100px;
+}
+
+.contact h1 {
+  text-align: center;
+}
+
+.contact label {
+  text-align: left;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.footer p {
+  line-height: 50px;
 }
