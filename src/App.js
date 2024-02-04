@@ -3,16 +3,20 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
+  function buttonLink(){
+    window.location.href = 'https://www.linkedin.com/in/ariffaisal';
+  };
   return (
     <div class="App">
       <div class="hero">
           <img
             id="img"
             src="https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwaW1hZ2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1"
+            alt='lolo of '
           />
       <h3 id="heading3">Software Developer</h3>
       <h1 id="heading">Arif Faisal</h1>
-      <input id="button" type="button" value="LinkedIn profile"/>
+      <input id="button" type="button" value="LinkedIn profile" onClick={buttonLink}/>
       </div>
       <section>
           <header>
